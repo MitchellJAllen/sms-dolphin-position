@@ -1,5 +1,5 @@
 # Super Mario Sunshine Position Data for Dolphin Emulator
-The following are the results of using both Cheat Engine and the Dolphin Emulator to find emulated memory addresses for Mario's position in the game Super Mario Sunshine. Spawn positions are also recorded to allow for easy memory searching in case the addresses are incorrect. As a disclaimer, I do own a Nintendo Gamecube console as well as a physical copy of Super Mario Sunshine.
+The following are the results of using both Cheat Engine and the Dolphin Emulator to find emulated memory addresses for Mario's position in the game Super Mario Sunshine. Spawn positions are also recorded to allow for easy memory searching in case the addresses are incorrect. The provided spawn coordinates are based on Mario falling to the ground and settling before any additional movement occurs. Coordinates are provided as a 64-bit hexadecimal value consisting of Mario's Y and Z coordinates at spawn which can be used to search the emulated memory in Dolphin, and the X coordinate can optionally be used for verification. As a disclaimer, I do own a Nintendo Gamecube console as well as a physical copy of Super Mario Sunshine.
 
 ## Table of Contents
 * [Information](#information)
@@ -12,6 +12,7 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 * [Sirena Beach](#sirena-beach)
 * [Noki Bay](#noki-bay)
 * [Pianta Village](#pianta-village)
+* [Corona Mountain](#corona-mountain)
 
 ## Information
 * **Dolphin Emulator Version**: 5.0-12716 (x64)
@@ -21,8 +22,18 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 ## Delfino Plaza
 ### Spawn Coordinates (Format (X) YZ)
 * **Bianco Hills Exit**: (0x00000000) 0x4396000045A41000
+* **Dry Slide Level**: (0x44898000) 0x4668D000C6878C00
+* **Pinball Level**: (0xC4ED8000) 0xC4FA0000442F0000
+* **Lily Pad Level**: (0xC55DE000) 0x4316000046386000
+* **Water Slide Level**: (0x00000000) 0x461C400046AFC800
+* **Red Coin Level**: (0x451F6000) 0x442F000044480000
 ### Dolphin Addresses (Y-Coordinate)
 * **Main Level**: 0x012F8838
+* **Dry Slide Level**: 0x00EB0410
+* **Pinball Level**: 0x00ECB570
+* **Lily Pad Level**: 0x00E777AC
+* **Water Slide Level**: 0x00E1CD00
+* **Red Coin Level**: 0x00F01478
 
 ## Delfino Airstrip
 ### Spawn Coordinates (Format (X) YZ)
@@ -33,39 +44,39 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 ## Bianco Hills
 ### Spawn Coordinates (Format (X) YZ)
 * **Starting Segment**: (0xC6034000) 0x45366E63469AB000
-* **Petey Fight (Episode 2)**: (0x???) 0x???
-* **Secret Level (Episode 3)**: (0x???) 0x???
-* **Secret Level (Episode 6)**: (0x???) 0x???
+* **Petey Fight (Episode 2)**: (0x3FEEFDF4) 0x4040000044610000
+* **Secret Level (Episode 3)**: (0xC5BEA000) 0x455480004347FFFE
+* **Secret Level (Episode 6)**: (0x00000000) 0x45FA0000464D7800
 ### Dolphin Addresses (Y-Coordinate)
 * **Episode 1**: 0x01382840
 * **Episode 2**:
   * **Starting Segment**: 0x013219A0
-  * **Petey Fight**: 0x???
+  * **Petey Fight**: 0x00F0B0EC
 * **Episode 3**:
   * **Starting Segment**: 0x0129ECC0
-  * **Secret Level**: 0x???
+  * **Secret Level**: 0x00F32E80
 * **Episode 4**: 0x01309260
 * **Episode 5**: 0x013A9500
 * **Episode 6**:
   * **Starting Segment**: 0x0122AFA0
-  * **Secret Level**: 0x???
+  * **Secret Level**: 0x00EBE154
 * **Episode 7**: 0x0125EB80
 * **Episode 8**: 0x01288BE4
 
 ## Ricco Harbor
 ### Spawn Coordinates (Format (X) YZ)
 * **Starting Segment**: (0xC6516000) 0x439600034528C000
-* **Blooper Race (Episode 2)**: (0x???) 0x???
-* **Secret Level (Episode 4)**: (0x???) 0x???
+* **Blooper Race (Episode 2)**: (0x463B8000) 0x41200000C5898000
+* **Secret Level (Episode 4)**: (0xC5E10000) 0x458340002E3F0000
 ### Dolphin Addresses (Y-Coordinate)
 * **Episode 1**: 0x013BC98C
 * **Episode 2**:
   * **Starting Segment**: 0x013BCD24
-  * **Blooper Race**: 0x???
+  * **Blooper Race**: 0x00FBEFB8
 * **Episode 3**: 0x0133274C
 * **Episode 4**:
   * **Starting Segment**: 0x012ED064
-  * **Secret Level**: 0x???
+  * **Secret Level**: 0x00E7ECC0
 * **Episode 5**: 0x013B75CC
 * **Episode 6**: 0x012E868C
 * **Episode 7**: 0x012F144C
@@ -95,14 +106,14 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 ### Spawn Coordinates (Format (X) YZ)
 * **Starting Segment (Episode 1)**: (0xC55AC000) 0xC19D908446228000
 * **Starting Segment (Episodes 2-8)**: (0xC55AC000) 0xC1BD13CB46234800
-* **Amusement Park (Episode 1)**: (0x???) 0x???
+* **Amusement Park (Episode 1)**: (0xC5610000) 0x43C8000044610000
 * **Amusement Park (Episodes 3, 5-8)**: (0xC555C000) 0x43C80000447F0000
 * **Secret Level (Episode 2)**: (0x???) 0x???
 * **Secret Level (Episode 6)**: (0x???) 0x???
 ### Dolphin Addresses (Y-Coordinate)
 * **Episode 1**:
   * **Starting Segment**: 0x013B8968
-  * **Amusement Park**: 0x???
+  * **Amusement Park**: 0x012D8B6C
 * **Episode 2**:
   * **Starting Segment**: 0x0138774C
   * **Secret Level**: 0x???
@@ -200,3 +211,9 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 * **Episode 6**: 0x01328DB4
 * **Episode 7**: 0x013808D8
 * **Episode 8**: 0x01251584
+
+## Corona Mountain
+### Spawn Coordinates (Format (X) YZ)
+* **Starting Segment**: (0x42C80000) 0x4418800046B54000
+### Dolphin Addresses (Y-Coordinate)
+* **Starting Segment**: 0x01061A64
