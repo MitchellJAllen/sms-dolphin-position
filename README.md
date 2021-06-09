@@ -199,7 +199,7 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 ### Spawn Coordinates (Format (X) YZ)
 * **Starting Segment (Episodes 1-4, 6-8)**: (0x00000000) 0xC4169708468EF800
 * **Starting Segment (Episode 5)**: (0x00000000) 0xC3C8000046947000
-* **Secret Level**: (0x430C0000) 0x43B6C4C9C4638000
+* **Secret Level (Episode 5)**: (0xC62A5000) 0x44AF000044ED8000
 ### Dolphin Addresses (Y-Coordinate)
 * **Episode 1**: 0x0132A6B8
 * **Episode 2**: 0x01249674
@@ -207,7 +207,7 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 * **Episode 4**: 0x012A26B4
 * **Episode 5**:
   * **Starting Segment**: 0x012BFF74
-  * **Secret Level**: 0x00FB7FE8
+  * **Secret Level**: 0x00EA9300
 * **Episode 6**: 0x01328DB4
 * **Episode 7**: 0x013808D8
 * **Episode 8**: 0x01251584
