@@ -15,7 +15,7 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 * [Corona Mountain](#corona-mountain)
 
 ## Information
-* **Dolphin Emulator Version**: 5.0-12716 (x64)
+* **Dolphin Emulator Versions**: 5.0-12716 (x64), 5.0-14332 (x64), 5.0-14344 (x64)
 * **Position Data Type**: 32-bit floating-point number, Big Endian
 * **Position Storage**: | **X** - 4 bytes | **Y** - 4 bytes | **Z** - 4 bytes |
 
@@ -37,9 +37,11 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 
 ## Delfino Airstrip
 ### Spawn Coordinates (Format (X) YZ)
+* **Game Start**: (0x444CCCCD) 0x43FA0000449BC666
 * **Boat From Delfino Plaza**: (0xC607F0000) 0x42C80000C5A41000
 ### Dolphin Addresses (Y-Coordinate)
-* **Main Level**: 0x0105A954
+* **Game Start**: 0x01202AD0
+* **Main Level (revisited)**: 0x0105A954
 
 ## Bianco Hills
 ### Spawn Coordinates (Format (X) YZ)
@@ -96,7 +98,7 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 * **Episode 3**: 0x01414E50
 * **Episode 4**:
   * **Starting Segment**: 0x0135C970
-  * **Secret Level**: 0x???
+  * **Secret Level**: 0x0113E0C8
 * **Episode 5**: 0x0138AA08
 * **Episode 6**: 0x013821C0
 * **Episode 7**: 0x013A3C28
@@ -142,7 +144,7 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 * **Secret Level (Episode 2)**: (0xC60E3000) 0x45642000C47A0000
 * **Secret Level (Episode 4)**: (0x00000000) 0x4573C00046787000
 * **The Casino (Episodes 4, 5)**: (0x3EADE658) 0x80000000C572F164
-* **Boo Fight (Episode 5)**: (0x430C0000) 0x43B6C4C9C4638000
+* **Boo Fight (Episode 5)**: (0x430C0000) 0x43B6C4C9C4638000 _(after platform lowers)_
 ### Dolphin Addresses (Y-Coordinate)
 * **Episode 1**: 0x012BEED4
 * **Episode 2**:
@@ -215,5 +217,7 @@ The following are the results of using both Cheat Engine and the Dolphin Emulato
 ## Corona Mountain
 ### Spawn Coordinates (Format (X) YZ)
 * **Starting Segment**: (0x42C80000) 0x4418800046B54000
+* **Bowser Fight**: (0x???) 0x???
 ### Dolphin Addresses (Y-Coordinate)
 * **Starting Segment**: 0x01061A64
+* **Bowser Fight**: 0x???
